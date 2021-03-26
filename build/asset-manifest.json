@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/asr-bangla/static/css/main.b5a33b28.chunk.css",
+    "main.js": "/asr-bangla/static/js/main.077b81d8.chunk.js",
+    "main.js.map": "/asr-bangla/static/js/main.077b81d8.chunk.js.map",
+    "runtime-main.js": "/asr-bangla/static/js/runtime-main.29beed03.js",
+    "runtime-main.js.map": "/asr-bangla/static/js/runtime-main.29beed03.js.map",
+    "static/css/2.9d3b5bd8.chunk.css": "/asr-bangla/static/css/2.9d3b5bd8.chunk.css",
+    "static/js/2.bca84d45.chunk.js": "/asr-bangla/static/js/2.bca84d45.chunk.js",
+    "static/js/2.bca84d45.chunk.js.map": "/asr-bangla/static/js/2.bca84d45.chunk.js.map",
+    "index.html": "/asr-bangla/index.html",
+    "static/css/2.9d3b5bd8.chunk.css.map": "/asr-bangla/static/css/2.9d3b5bd8.chunk.css.map",
+    "static/css/main.b5a33b28.chunk.css.map": "/asr-bangla/static/css/main.b5a33b28.chunk.css.map",
+    "static/js/2.bca84d45.chunk.js.LICENSE.txt": "/asr-bangla/static/js/2.bca84d45.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.29beed03.js",
+    "static/css/2.9d3b5bd8.chunk.css",
+    "static/js/2.bca84d45.chunk.js",
+    "static/css/main.b5a33b28.chunk.css",
+    "static/js/main.077b81d8.chunk.js"
+  ]
+}

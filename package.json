@@ -9,7 +9,6 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "antd": "^4.13.0",
-    "gh-pages": "^3.1.0",
     "microphone-stream": "5.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -24,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -47,6 +46,7 @@
   },
   "devDependencies": {
     "@types/readable-stream": "^2.3.9",
-    "@types/styled-components": "^5.1.7"
+    "@types/styled-components": "^5.1.7",
+    "gh-pages": "^3.1.0"
   }
 }

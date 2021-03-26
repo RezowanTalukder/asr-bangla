@@ -25,12 +25,12 @@ ReactDOM.render(
       </p>
       <Recognizer />
       <p>
-        <a href="#">
-          ASR BANGLA @ Md Rezowan Talukder
-
-        </a>
+        <br><br><br>
+          <a href="#">
+            ASR Bangla @ Md Rezowan Talukder
+          </a>
       </p>
     </Wrapper>
   </React.StrictMode>,
-  document.getElementById("root")
-);
+        document.getElementById("root")
+        );

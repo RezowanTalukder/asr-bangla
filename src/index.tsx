@@ -18,15 +18,15 @@ ReactDOM.render(
   <React.StrictMode>
     <Wrapper>
       <h1>ASR BANGLA</h1>
-      <h1>An Automatic Speech Recognition System for Bangla Language</h1>
+      <h2>An Automatic Speech Recognition System for Bangla Language</h2>
       <p>
         Select a language and load the model to start speech recognition. <br />
         You can either upload a file or speak on the microphone.
       </p>
       <Recognizer />
       <p>
-
-        <a href="#">
+        <br /><br /><br />
+        <a href="https://www.linkedin.com/in/rez1-talukder" >
           ASR Bangla @ Md Rezowan Talukder
         </a>
       </p>

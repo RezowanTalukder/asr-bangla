@@ -30,7 +30,7 @@ const FileUpload: React.FunctionComponent<Props> = ({
 
       const audioContext = new AudioContext();
 
-      const recognizerNode = audioContext.createScriptProcessor(4096, 1, 1);
+      const recognizerNode = audioContext.createScriptProcessor(16384, 1, 1);
       recognizerNode.onaudioprocess = (event) => {
         try {
           if (

@@ -122,7 +122,7 @@ export const Recognizer: React.FunctionComponent = () => {
         )}
         <span key="partial">{partial}</span>
       </ResultContainer>
-      
+
     </Wrapper>
   );
 };

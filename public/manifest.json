@@ -1,6 +1,6 @@
 {
-  "short_name": "Vosk-Browser",
-  "name": "Vosk-Browser Speech Recognition Demo",
+  "short_name": "ASR Bangla",
+  "name": "An Automatic Speech Recognition System for Bangla",
   "icons": [
     {
       "src": "favicon.ico",

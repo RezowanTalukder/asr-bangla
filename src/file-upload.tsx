@@ -6,7 +6,9 @@ import { KaldiRecognizer } from "vosk-browser";
 
 const StyledButton = styled(Button)`
   box-sizing: border-box;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.1em;
+  border: 1px solid royalblue;
 `;
 
 interface Props {
@@ -30,7 +32,7 @@ const FileUpload: React.FunctionComponent<Props> = ({
 
       const audioContext = new AudioContext();
 
-      const recognizerNode = audioContext.createScriptProcessor(8192, 1, 1);
+      const recognizerNode = audioContext.createScriptProcessor(4096, 1, 1);
       recognizerNode.onaudioprocess = (event) => {
         try {
           if (

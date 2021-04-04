@@ -6,6 +6,8 @@ import FileUpload from "./file-upload";
 import Microphone from "./microphone";
 import ModelLoader from "./model-loader";
 
+//<FileUpload recognizer={recognizer} loading={loading} ready={ready} />
+
 
 const Wrapper = styled.div`
   width: 80%;
@@ -25,12 +27,14 @@ const Header = styled.div`
 
 const StyledButton = styled(Button)`
   box-sizing: border-box;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.1em;
+  border: 1px solid darkorange;
 `;
 
 const ResultContainer = styled.div`
   width: 100%;
-  height: 40%;
+  height: 300px;
   margin: 1rem auto;
   border: 1px solid #aaaaaa;
   padding: 1rem;
@@ -93,6 +97,7 @@ export const Recognizer: React.FunctionComponent = () => {
     });
   };
 
+
   return (
     <Wrapper>
       <ModelLoader
@@ -106,7 +111,6 @@ export const Recognizer: React.FunctionComponent = () => {
       />
       <Header>
         <Microphone recognizer={recognizer} loading={loading} ready={ready} />
-        <FileUpload recognizer={recognizer} loading={loading} ready={ready} />
       </Header>
       <ResultContainer>
         {utterances.map((utt, uindex) =>

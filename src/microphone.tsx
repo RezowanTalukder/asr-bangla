@@ -85,6 +85,9 @@ const Microphone: React.FunctionComponent<Props> = ({
       icon={muted ? <AudioMutedOutlined /> : <AudioOutlined />}
       disabled={!ready || loading}
       onMouseUp={toggleMic}
+      type="primary"
+      shape="round"
+      size="large"
     >
       Speak
     </Button>

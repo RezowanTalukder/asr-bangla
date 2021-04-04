@@ -19,9 +19,11 @@ ReactDOM.render(
     <Wrapper>
       <h1>ASR BANGLA</h1>
       <h2>An Automatic Speech Recognition System for Bangla Language</h2>
+      <h3>
+        Select a language and load the model to start speech recognition.
+      </h3>
       <p>
-        Select a language and load the model to start speech recognition. <br />
-        You can either upload a file or speak on the microphone.
+              <br/>
       </p>
       <Recognizer />
       <p>

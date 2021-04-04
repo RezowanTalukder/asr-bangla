@@ -11,21 +11,24 @@ const Wrapper = styled.div`
 
 const StyledButton = styled(Button)`
   box-sizing: border-box;
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
+  font-size: 1.1em;
+  border: 1px solid darkorange;
 `;
 interface Props {
   onModelChange: (value: string) => void;
   onModelSelect: (value: string) => void;
   loading: boolean;
+  loaded: boolean;
 }
 
 export const models: Array<{ name: string; path: string }> = [
   {
-    name: "Bangla ASR",
+    name: "Bangla ASR Model",
     path: "bangla_model.tar.gz",
   },
   {
-    name: "Indian English",
+    name: "Indian English Model",
     path: "vosk-model-small-en-in-0.4.tar.gz",
   }
 ];
@@ -34,6 +37,7 @@ const ModelLoader: React.FunctionComponent<Props> = ({
   onModelChange,
   onModelSelect,
   loading,
+  loaded,
 }) => {
   const [model, setModel] = useState(models[0].path);
 
@@ -44,6 +48,7 @@ const ModelLoader: React.FunctionComponent<Props> = ({
           height: "2rem",
           margin: "auto 0",
           width: "10rem",
+
         }}
         defaultValue={models[0].path}
         onChange={(value: string) => {
@@ -58,7 +63,7 @@ const ModelLoader: React.FunctionComponent<Props> = ({
         ))}
       </Select>
       <StyledButton onClick={() => onModelSelect(model)}>
-        {loading ? "Loading..." : "Load"}
+        {loading ? "L o a d i n g . . ." : "Load"}
       </StyledButton>
     </Wrapper>
   );
